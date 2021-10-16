@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightsalmon;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+}
+
+.negro{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}
+
+.blanco{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+}
+
+.fila-ajedrez-1{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.fila-ajedrez-2{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction:row-reverse;
+}
